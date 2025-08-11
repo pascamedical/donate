@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - CCAN Research Projects</title>
+    <link rel="stylesheet" href="donations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="/">CCAN</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="/"></a></li>
+                    <li><a href="#projects"></a></li>
+                    <li><a href="file:///C:/Users/Coordinator/Desktop/NEPAS%20projects/impact.html">Impact</a></li>
+                    <li><a href="#contact"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <h1>Support Our Research</h1>
+                <p>Your donation helps advance understanding of cognitive and affective processes</p>
+            </div>
+        </section>
+
+        <section class="donation-options">
+            <div class="container">
+                <h2>Choose Your Impact</h2>
+                <div class="options-grid">
+                    <div class="donation-card">
+                        <div class="card-header">
+                            <i class="fas fa-flask"></i>
+                            <h3>Research Support</h3>
+                        </div>
+                        <div class="card-content">
+                            <p>Fund essential research equipment and materials</p>
+                            <div class="amount-options">
+                                <button class="amount-btn">$50</button>
+                                <button class="amount-btn">$100</button>
+                                <button class="amount-btn">$200</button>
+                                <button class="amount-btn custom">Custom</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="donation-card">
+                        <div class="card-header">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3>Student Research</h3>
+                        </div>
+                        <div class="card-content">
+                            <p>Support student researchers and their projects</p>
+                            <div class="amount-options">
+                                <button class="amount-btn">$100</button>
+                                <button class="amount-btn">$250</button>
+                                <button class="amount-btn">$500</button>
+                                <button class="amount-btn custom">Custom</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="donation-card">
+                        <div class="card-header">
+                            <i class="fas fa-users"></i>
+                            <h3>Community Programs</h3>
+                        </div>
+                        <div class="card-content">
+                            <p>Help us extend our research impact to communities</p>
+                            <div class="amount-options">
+                                <button class="amount-btn">$150</button>
+                                <button class="amount-btn">$300</button>
+                                <button class="amount-btn">$600</button>
+                                <button class="amount-btn custom">Custom</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="donation-form">
+            <div class="container">
+                <h2>Make Your Donation</h2>
+                <form id="donate-form">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="amount">Donation Amount ($)</label>
+                            <input type="number" id="amount" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="project">Select Project</label>
+                            <select id="project" required>
+                                <option value="">Choose a project</option>
+                                <option value="research">Research Support</option>
+                                <option value="student">Student Research</option>
+                                <option value="community">Community Programs</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message (Optional)</label>
+                        <textarea id="message" rows="4"></textarea>
+                    </div>
+                    <div class="payment-options">
+                        <h3>Payment Method</h3>
+                        <div class="payment-methods">
+                            <button type="button" class="payment-btn">
+                                <i class="fab fa-cc-visa"></i>
+                            </button>
+                            <button type="button" class="payment-btn">
+                                <i class="fab fa-cc-mastercard"></i>
+                            </button>
+                            <button type="button" class="payment-btn">
+                                <i class="fab fa-cc-paypal"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <button type="submit" class="submit-btn">Complete Donation</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="impact-section">
+            <div class="container">
+                <h2>Your Impact</h2>
+                <div class="impact-grid">
+                    <div class="impact-card">
+                        <i class="fas fa-brain"></i>
+                        <h3>Advanced Research</h3>
+                        <p>Support cutting-edge studies in cognitive neuroscience</p>
+                    </div>
+                    <div class="impact-card">
+                        <i class="fas fa-microscope"></i>
+                        <h3>Better Equipment</h3>
+                        <p>Help acquire state-of-the-art research equipment</p>
+                    </div>
+                    <div class="impact-card">
+                        <i class="fas fa-user-graduate"></i>
+                        <h3>Student Support</h3>
+                        <p>Enable the next generation of researchers</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>CCAN</h3>
+                    <p>Center for Cognitive and Affective Neuroscience</p>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-envelope"></i> donate@ccan.org</p>
+                    <p><i class="fas fa-phone"></i> +358 50 4318615</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CCAN. All donations are tax-deductible.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
